@@ -1,0 +1,17 @@
+<?php
+
+class Dbh{
+    protected function konekcija(){
+        try {
+            $username="root";
+            $password="";
+            $dbh=new PDO('mysql:host=localhost;dbname=minigames',$username,$password);
+            return $dbh;
+
+        } catch (PDOException $e) {
+            print "Greska!: " .$e->getMessage() ."<br/>";
+            die();
+        }
+
+    }
+}
