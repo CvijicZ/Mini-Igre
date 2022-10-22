@@ -1,0 +1,32 @@
+.section-prijava{
+    margin-top: 10%;
+    margin: auto;
+    width: 50%;
+    background-color: lightblue;
+    color: red;
+}
+.prijava{
+    margin: auto;
+    width: 35%;
+    padding:40px;
+}
+button{
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin-left:30%;
+}
+.section-register{
+    margin-top: 10%;
+    margin: auto;
+    width: 50%;
+    background-color: lightblue;
+    color: red;
+}
+.registracija{
+    margin: auto;
+    width: 35%;
+    padding:40px;
+
+}
